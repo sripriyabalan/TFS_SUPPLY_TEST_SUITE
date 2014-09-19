@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="8" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href="D:\TFS_SUPPLY_QE\src\test\java\com\TaxiForSure\ScreenShots\driverRegTest().png">  Clickhere  </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="171553" started-at="2014-09-19T08:43:18Z" finished-at="2014-09-19T08:46:10Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="171553" started-at="2014-09-19T08:43:18Z" finished-at="2014-09-19T08:46:10Z">
+      <class name="com.TaxiForSure.RegTestCases.RegistrationTest">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configBeforeClass" is-config="true" duration-ms="2356" started-at="2014-09-19T14:13:18Z" finished-at="2014-09-19T14:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configBeforeMethod" is-config="true" duration-ms="2304" started-at="2014-09-19T14:13:21Z" finished-at="2014-09-19T14:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="DriverSearchTest()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="DriverSearchTest" duration-ms="4003" started-at="2014-09-19T14:13:23Z" finished-at="2014-09-19T14:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSearchTest -->
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configAfterMethod" is-config="true" duration-ms="865" started-at="2014-09-19T14:13:27Z" finished-at="2014-09-19T14:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configBeforeMethod" is-config="true" duration-ms="1057" started-at="2014-09-19T14:13:28Z" finished-at="2014-09-19T14:13:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="VehicleSearchTest()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="VehicleSearchTest" duration-ms="3614" started-at="2014-09-19T14:13:29Z" finished-at="2014-09-19T14:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehicleSearchTest -->
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configAfterMethod" is-config="true" duration-ms="106" started-at="2014-09-19T14:13:32Z" finished-at="2014-09-19T14:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configBeforeMethod" is-config="true" duration-ms="1102" started-at="2014-09-19T14:13:35Z" finished-at="2014-09-19T14:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="approveCorporateTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="approveCorporateTest" duration-ms="4563" started-at="2014-09-19T14:13:36Z" data-provider="ApproveCorporate" finished-at="2014-09-19T14:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[INTEL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INTELACA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveCorporateTest -->
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configAfterMethod" is-config="true" duration-ms="666" started-at="2014-09-19T14:13:40Z" finished-at="2014-09-19T14:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configBeforeMethod" is-config="true" duration-ms="1026" started-at="2014-09-19T14:13:41Z" finished-at="2014-09-19T14:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="approveDriverTest(java.lang.String)[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="approveDriverTest" duration-ms="12357" started-at="2014-09-19T14:13:42Z" data-provider="ApproveDriver" finished-at="2014-09-19T14:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TaxiForSure.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveDriverTest -->
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configAfterMethod" is-config="true" duration-ms="161" started-at="2014-09-19T14:13:55Z" finished-at="2014-09-19T14:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configBeforeMethod" is-config="true" duration-ms="1740" started-at="2014-09-19T14:13:55Z" finished-at="2014-09-19T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="approveVehicleTest(java.lang.String)[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="approveVehicleTest" duration-ms="11053" started-at="2014-09-19T14:13:57Z" data-provider="ApproveVehicle" finished-at="2014-09-19T14:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shabnam Cabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveVehicleTest -->
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configAfterMethod" is-config="true" duration-ms="160" started-at="2014-09-19T14:14:08Z" finished-at="2014-09-19T14:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configBeforeMethod" is-config="true" duration-ms="1661" started-at="2014-09-19T14:14:08Z" finished-at="2014-09-19T14:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="FAIL" signature="driverRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="driverRegTest" duration-ms="71690" started-at="2014-09-19T14:14:10Z" data-provider="DriverRegistrationForm" finished-at="2014-09-19T14:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TaxiForSure.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sedan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dedicated VTS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HARIPRI]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9999131956]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[KA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1906]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2450654748]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[994532371]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Kannada]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Excellent]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//*[@id='cont']/div/strong"}
+Command duration or timeout: 20.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'SRIPRIYA-TI8152', ip: '172.16.11.0', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 75af5aba-b9f0-409c-8f65-456a8dd5cf6d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='cont']/div/strong"}
+Command duration or timeout: 20.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'SRIPRIYA-TI8152', ip: '172.16.11.0', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 75af5aba-b9f0-409c-8f65-456a8dd5cf6d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.TaxiForSure.RegTestCases.RegistrationTest.driverRegTest(RegistrationTest.java:332)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:128)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//*[@id='cont']/div/strong"}
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'SRIPRIYA-TI8152', ip: '172.16.11.0', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/sripriya.b/AppData/Local/Temp/anonymous3541156602564647361webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470:133)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/sripriya.b/AppData/Local/Temp/anonymous3541156602564647361webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:407:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="D:\TFS_SUPPLY_QE\src\test\java\com\TaxiForSure\ScreenShots\driverRegTest().png">  Clickhere  </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driverRegTest -->
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configAfterMethod" is-config="true" duration-ms="316" started-at="2014-09-19T14:15:22Z" finished-at="2014-09-19T14:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configBeforeMethod" is-config="true" duration-ms="1729" started-at="2014-09-19T14:15:23Z" finished-at="2014-09-19T14:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="editCompanyTest(java.lang.String)[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="editCompanyTest" duration-ms="5115" started-at="2014-09-19T14:15:24Z" data-provider="EditCompany" finished-at="2014-09-19T14:15:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AeroSpaceCabs (India) Pvt Ltd  ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCompanyTest -->
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configAfterMethod" is-config="true" duration-ms="115" started-at="2014-09-19T14:15:30Z" finished-at="2014-09-19T14:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method status="PASS" signature="configBeforeMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configBeforeMethod" is-config="true" duration-ms="1820" started-at="2014-09-19T14:15:30Z" finished-at="2014-09-19T14:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method status="PASS" signature="vehicleRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="vehicleRegTest" duration-ms="37511" started-at="2014-09-19T14:15:32Z" data-provider="VehicleRegistrationForm" finished-at="2014-09-19T14:16:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TaxiForSure.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CarQW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DriverA12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999889994]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sedan]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[National Insurance]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[121212344]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[121212332]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[121212323]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[121212323]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9999889956]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[d.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vehicleRegTest -->
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.TaxiForSure.RegTestCases.RegistrationTest@10ac4be]" name="configAfterMethod" is-config="true" duration-ms="676" started-at="2014-09-19T14:16:09Z" finished-at="2014-09-19T14:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+      </class> <!-- com.TaxiForSure.RegTestCases.RegistrationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

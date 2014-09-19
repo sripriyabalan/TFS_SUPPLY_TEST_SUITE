@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.TaxiForSure.RegTestCases.RegistrationTest">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="driverRegTest" invocation-numbers="0"/>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeMethod"/>
+        </methods>
+      </class> <!-- com.TaxiForSure.RegTestCases.RegistrationTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

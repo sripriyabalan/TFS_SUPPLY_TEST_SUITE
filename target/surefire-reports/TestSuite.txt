@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 433.908 sec <<< FAILURE! - in TestSuite
+approveCorporateTest(com.TaxiForSure.RegTestCases.RegistrationTest)  Time elapsed: 4.687 sec  <<< FAILURE!
+java.lang.AssertionError: Actual String is not as expected expected [Update Successfully] but found [error!!]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.TaxiForSure.RegTestCases.RegistrationTest.approveCorporateTest(RegistrationTest.java:198)
+
+operatorRegTest(com.TaxiForSure.RegTestCases.RegistrationTest)  Time elapsed: 13.587 sec  <<< FAILURE!
+java.lang.AssertionError: Actual String is not as expected expected [Added Successfully] but found [error!!]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.TaxiForSure.RegTestCases.RegistrationTest.operatorRegTest(RegistrationTest.java:170)
+
+addCorporatePaymentTest(com.TaxiForSure.RegTestCases.SettlementTest)  Time elapsed: 7.18 sec  <<< FAILURE!
+org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.17 seconds
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'SRIPRIYA-TI8152', ip: '172.16.11.0', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_67'
+Session ID: 637275bb-b787-4b59-a2a5-e42cefd60bf7
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:899)
+	at com.TaxiForSure.GenericLib.WebDriverCommonLib.alertText(WebDriverCommonLib.java:142)
+	at com.TaxiForSure.RegTestCases.SettlementTest.addCorporatePaymentTest(SettlementTest.java:174)
+
+comprehensiveInspectionTest(com.TaxiForSure.RegTestCases.SupplyInspectionTest)  Time elapsed: 70.596 sec  <<< FAILURE!
+java.lang.AssertionError: Enter Valid data
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.TaxiForSure.RegTestCases.SupplyInspectionTest.comprehensiveInspectionTest(SupplyInspectionTest.java:326)
+
+quickInspectionTest(com.TaxiForSure.RegTestCases.SupplyInspectionTest)  Time elapsed: 65.26 sec  <<< FAILURE!
+java.lang.AssertionError: Enter Valid data
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.TaxiForSure.RegTestCases.SupplyInspectionTest.quickInspectionTest(SupplyInspectionTest.java:460)
+
